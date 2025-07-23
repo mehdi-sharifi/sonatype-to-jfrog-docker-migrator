@@ -41,8 +41,8 @@ sonatype-to-jfrog-docker-migrator/
 1. Clone the repo:
 ```bash
    
-git clone https://github.com/your-user/docker-image-migrator.git
-cd docker-image-migrator
+git clone https://github.com/mehdi-sharifi/sonatype-to-jfrog-docker-migrator.git
+cd sonatype-to-jfrog-docker-migrator
  ```
 2. Install dependencies:
 
@@ -60,7 +60,7 @@ cp .env.sample .env
 ```bash
 
 export $(cat .env | xargs)
-python migrate_docker_images.py
+python main.py
 ```
 ## 🐳 Run with Docker
 ### Build the image
